@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Time Api </title>
+	<meta charset="utf-8">
+	<meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+    />
+    <meta name="theme-color" content="#000000" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css">
+</head>
+<body>
+	<div id="container">
+		<div id="box">
+			<center>
+				<div id="searchdiv">
+					<img src="instagram.svg" id="search-icon">
+					<input type="search" name="search" id="search" placeholder="Put in your Address.."><input type="button" value="Search" id="sub">
+				</div>
+				<div id="time"></div>
+			</center>
+		</div>
+		<div id="map"></div>
+	</div>
+	<div id="loader" style="display: none;"></div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
